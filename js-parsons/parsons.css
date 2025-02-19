@@ -6,17 +6,18 @@
     margin-left: 2%;
     float: left;
 }
-#sortableTrash { width: 38%; }
-#sortable { width: 56%; }
+#sortableTrash { width: 42%; }
+#sortable { width: 53%; }
 .sortable-code ul {
-    font-size: 120%;
+    font-size: 100%;
     font-family: monospace;
     list-style: none;
-    background-color: #efefff;
-    padding-bottom: 10px;
+    background-color: #828aa7;
+    margin-bottom: 25px;
     padding-left: 0;
     margin-left: 0;
-    border: 1px solid #efefff;;
+    border: 10px solid #828aa7;
+    border-radius: 5px;
 }
 .sortable-code ul:empty {
   padding-bottom: 30px;
@@ -25,17 +26,18 @@
   box-sizing: content-box;
 }
 ul.output {
-    background-color: #FFA;
+    background-color: #a4acc7;
 }
 .sortable-code li {
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
-    border-radius: 10px;
-    background-color:#EFEFEF;
-    border:1px solid lightgray;
+    border-radius: 5px;
+    background-color:#c1c4d0;
+    border: 1px dashed #e278c1;
     padding:10px;
     margin-top: 5px;
-    white-space: nowrap;
+    margin-bottom: 5px;
+    white-space: normal;
     overflow: hidden;
     cursor: move;
 }
@@ -64,12 +66,12 @@ li.correctIndent {
 }
 
 li.incorrectPosition, .testcase.fail, .testcase.error {
-    background-color: #FFBABA;
+    background-color: #ce4848;
     border:1px solid red;
 }
 
 li.correctPosition, .testcase.pass {
-    background-color: #DFF2BF;
+    background-color: #abc381;
     border:1px solid green;
 }
 
