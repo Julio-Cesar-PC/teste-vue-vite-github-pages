@@ -18,6 +18,7 @@
     margin-left: 0;
     border: 10px solid #828aa7;
     border-radius: 5px;
+    min-height: auto;
 }
 .sortable-code ul:empty {
   padding-bottom: 30px;
