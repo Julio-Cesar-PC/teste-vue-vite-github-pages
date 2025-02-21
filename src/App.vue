@@ -1,6 +1,6 @@
 <template>
 	<div class="flex items-center justify-center min-h-screen bg-gray-900 text-white px-6 py-1">
-		<div class="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-7xl mx-auto h-[95vh]   ">
+		<div class="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-7xl mx-auto h-[95vh]">
 			<h1 class="text-2xl font-bold mb-6 text-center">Exemplo de js-parsons no Vue 3</h1>
 
 			<div v-if="loading" class="text-center text-sm mb-4 align-middle">
@@ -19,7 +19,7 @@
 				<div id="sortable" class="sortable-code bg-gray-600 overflow-auto h-full"></div>
 			</div>
 
-			<button @click="enviarCodigo" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded w-full">
+			<button @click="enviarCodigo" class="btn btn-primary w-full">
 				Enviar Código
 			</button>
 
@@ -96,7 +96,7 @@ export default {
 
 <style>
 .sortable-code {
-	min-height: 50vh;
+	min-height: 30vh;
 	padding: 10px;
 	border: 2px dashed #ccc;
 }
